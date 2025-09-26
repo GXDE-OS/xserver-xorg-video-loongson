@@ -1,0 +1,28 @@
+Source: xserver-xorg-video-loongson
+Section: x11
+Priority: optional
+Maintainer: suijingfeng <suijingfeng@loongson.cn>
+Build-Depends: 
+ debhelper (>= 11),
+ automake,
+ quilt,
+ xserver-xorg-dev,
+ libdrm-dev,
+ libudev-dev,
+ libgbm-dev,
+ xutils-dev,
+ xorg-dev,
+ libtool,
+ libsysfs-dev
+Standards-Version: 4.1.3
+Homepage: <http://gerritos.loongnix.org:8081/#/admin/projects/lnd10_m/xf86-video-loongson>
+
+Package: xserver-xorg-video-loongson
+Architecture: mips64el
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: loongson is an Xorg driver for which kernel driver is loongson-drm.
+ Acceleration is available through exa for devices. if exa is not enabled,
+ using shadowfb. This driver supports TrueColor visuals at framebuffer
+ depths of 15, 16, 24, and 30.
+ This package is build from the X.org xf86-video-loongson driver module.
+

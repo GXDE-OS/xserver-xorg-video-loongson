@@ -1,0 +1,20 @@
+Document: xserver-xorg-video-loongson
+Title: Debian xserver-xorg-video-loongson Manual
+Author: <insert document author here>
+Abstract: This manual describes what xserver-xorg-video-loongson is
+ and how it can be used to
+ manage online manuals on Debian systems.
+Section: unknown
+
+Format: debiandoc-sgml
+Files: /usr/share/doc/xserver-xorg-video-loongson/xserver-xorg-video-loongson.sgml.gz
+
+Format: postscript
+Files: /usr/share/doc/xserver-xorg-video-loongson/xserver-xorg-video-loongson.ps.gz
+
+Format: text
+Files: /usr/share/doc/xserver-xorg-video-loongson/xserver-xorg-video-loongson.text.gz
+
+Format: HTML
+Index: /usr/share/doc/xserver-xorg-video-loongson/html/index.html
+Files: /usr/share/doc/xserver-xorg-video-loongson/html/*.html

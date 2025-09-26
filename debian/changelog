@@ -1,0 +1,19 @@
+xserver-xorg-video-loongson (0.2.0-2) unstable; urgency=medium
+  
+  *  Remove lots of unuseful documents in debian files.
+  *  Add bug number on changelog and add change of this commit.
+  *  Remove "--with quilt,xfs" in rules.
+  *  Add URL on watch and copyright. Add license of GPL-2+ on copyright.
+  *  Control change: add xorg-dev libtool and libsysfs-dev dependency.
+  *  Add a patch(0001-change_README_man.patch) which add xorg-dev libtool and
+     libsysfs-dev dependency on UOS of README, and fill in manpage content.
+  *  Record patch to series.
+
+ -- zhaojiale <zhaojiale@loongson.cn>  Thu, 17 Sep 2020 20:14:20 +0800
+
+
+xserver-xorg-video-loongson (0.2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #14200)  
+
+ -- suijingfeng <suijingfeng@loongson.cn>  Sun, 30 Aug 2020 21:18:04 -0400

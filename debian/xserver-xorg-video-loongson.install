@@ -1,0 +1,3 @@
+usr/lib/xorg/modules/drivers/loongson_drv.so
+usr/share/man/man4/loongson.4
+usr/share/X11/xorg.conf.d/20-loongson.conf

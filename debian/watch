@@ -1,0 +1,11 @@
+#git clone ssh://zhaojiale@gerritos.loongnix.org:29418/lnd10_m/xserver-xorg-video-loongson && scp -p -P 29418 zhaojiale@gerritos.loongnix.org:hooks/commit-msg xserver-xorg-video-loongson/.git/hooks/
+
+version=4
+
+# PGP signature mangle, so foo.tar.gz has foo.tar.gz.sig
+#opts="pgpsigurlmangle=s%$%.sig%"
+
+# Direct Git
+opts="mode=git" http://gerritos.loongnix.org:8081/#/admin/projects/lnd10_m/xserver-xorg-video-loongson
+
+
